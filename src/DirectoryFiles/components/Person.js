@@ -7,9 +7,9 @@ export default function Person({person}){
          <h1 className="id">{id}/25</h1>
          <h1 className="name">{`${name.first} ${name.last}`}</h1>
          <ul className="descriptor-list">
-         <li><b>From: </b>{city}, {country}</li>
-         <li><b>Job Title: </b>{title}</li>
-         <li><b>Employer: </b>{employer}</li>
+            <li><b>From: </b>{city}, {country}</li>
+            <li><b>Job Title: </b>{title}</li>
+            <li><b>Employer: </b>{employer}</li>
          </ul>
          <p><b>Favorite Movies: </b></p>
             <ol className="movie-list">
