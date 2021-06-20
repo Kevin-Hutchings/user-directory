@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+}
+
+.Header{
+  background-color: #57a3d5;
+  margin-top: 0;
+  padding: 2%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.InfoContainer{
+  background-color: white;
+  margin-top: 10vh;
+  padding-left: 50px;
+  padding-top: 0;
+  height: 40vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  left: 5%;
+  font-size: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.id{
+  display: flex;
+  align-self: flex-end;
+  position: relative;
+  right: 2%;
+}
+
+.name{
+  margin-top: -7%;
+  text-decoration: underline;
+  text-decoration-color: #57a3d5;
+  font: bolder;
+}
+
+.descriptor-list{
+  line-height: 25px;
+  list-style: none;
+  margin-left: -5%;
+}
+
+.Buttons{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 5%;
+  right: 10%;
+}
+
+.nav{
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+}
+
+.movie-list{
+  margin: -1%;
+  padding-left: 65px;
+  line-height: 20px;
+}
