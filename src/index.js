@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './DirectoryFiles/index.css';
+import './DirectoryFiles/buttons.css';
 import App from './DirectoryFiles/App';
 import reportWebVitals from './reportWebVitals';
 

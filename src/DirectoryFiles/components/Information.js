@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import data from '../data'
 import Person from './Person'
-import Button from './Buttons';
+import Button from './Nav-Buttons';
+import EditButtons from './Edit-Buttons';
 
 export default class Information extends Component {
    constructor(){
@@ -29,9 +30,14 @@ export default class Information extends Component {
       return(
          <div> 
             <Person person={this.state.people[this.state.personIndex]} />
-            <section className="Buttons">
+            <section className="Nav-Buttons">
                <Button buttonTitle="< Previous" handleClick={() => this.changePerson('prev')} />
                <Button buttonTitle="Next >" handleClick={() => this.changePerson('next')} />
+            </section>
+            <section className="edit-buttons">
+               <EditButtons buttonTitle="Edit" />
+               <EditButtons buttonTitle="Delete" />
+               <EditButtons buttonTitle="New" />
             </section>
          </div>
       )
